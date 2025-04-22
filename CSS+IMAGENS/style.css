@@ -1,0 +1,40 @@
+/* Estilização geral do corpo da página */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/vetores-gratis/movel_677411-3214.jpg?ga=GA1.1.1253880462.1737581262&semt=ais_hybrid&w=740);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Estilização das seções principais */
+main, section {
+    color: #ffffff;
+    padding: 40px;
+}
+
+/* Estilização dos títulos principais */
+h1 {
+    color: #653dff;
+    font-size: 3em;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos subtítulos/textos explicativos */
+h3 {
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Rolagem suave entre seções*/
+html {
+    scroll-behavior: smooth;
+}

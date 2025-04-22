@@ -1,0 +1,83 @@
+/* Container que agrupa todos os cards do time */
+.container-time {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1%;   
+}
+
+/* Card individual de cada membro do time */
+.box-time {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    border-radius: 20px;
+    color: #653dff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 7%;
+    display: flex;                  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;                    
+}
+
+/* Título da seção "Conheça nosso time" */
+.text-time {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    border-top: 5px solid transparent;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Efeito no hover dos cards do time */
+.box-time:hover {
+    padding: 5px;
+}
+
+/* Título de nome dos membros */
+.h3 {
+    color: #653dff;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+/* Foto do Kauã */
+.kaua {
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    border-radius: 60px;
+}
+
+/* Foto do Aldenir */
+.junin {
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    border-radius: 60px;
+}
+
+/* Foto do Nickolas */
+.nickin {
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    border-radius: 60px;
+}
+
+/* Foto do Enzo */
+.enzo {
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    border-radius: 60px;
+}

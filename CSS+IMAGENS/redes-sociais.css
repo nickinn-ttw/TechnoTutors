@@ -1,0 +1,31 @@
+/* Container principal da seção de redes sociais */
+.social {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    list-style: none;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-top: 40%;
+}
+
+/* Título "Acompanhe nossas redes sociais" */
+#acompanhe {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Ícones individuais clicáveis */
+.icon {
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Container que agrupa todos os ícones */
+.icon-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 70%; 
+}

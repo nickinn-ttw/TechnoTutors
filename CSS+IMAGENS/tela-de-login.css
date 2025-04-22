@@ -1,0 +1,54 @@
+/* Estilo geral do corpo da página */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg?t=st=1744996113~exp=1744999713~hmac=b77f328123515589098488bf200af9fa0e872bc9c2e716eb8384b92fc63bdf32&w=996);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;                  
+    align-items: center;           
+    justify-content: center;       
+    height: 100vh;           
+}
+
+/* Container do formulário de login */
+.login-container {
+    background-color: rgb(1, 36, 36);
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização dos campos de entrada de dados*/
+input {
+    border: none;
+    padding: 20px;
+    outline: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Botão de login */
+button {
+    background-color: rgb(9, 129, 129);
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    cursor: pointer;
+    background-color: rgb(21, 190, 190);
+}

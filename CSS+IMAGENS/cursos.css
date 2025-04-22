@@ -1,0 +1,73 @@
+/* Container que segura todos os cards de cursos */
+.container-cursos {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+
+/* Card individual de cada curso */
+.box {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+/* Efeito no hover dos cards */
+.box:hover {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Imagem do curso de HTML */
+.html {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Imagem do curso de CSS */
+.css {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Imagem do curso de JavaScript */
+.java {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilo geral para todos os links */
+a {
+    text-decoration: none;
+    color: #653dff;
+}
+
+/* Texto que aparece antes dos cards dos cursos */
+.text2 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
